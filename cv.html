@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>
+CV Log In
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio of Ethan McFarlane">
+<meta name="keywords" content="Belfast Introductions" "Web Introductions">
+<link rel="icon" type="image/x-icon" href="images/favicon.png"/>
+
+</head>
+<link href="css/myStyle.css" rel="stylesheet" type="text/css" media="all"/>
+<body class="body2">
+
+
+<div id="container">
+
+<div class="horizontal-gradient2">
+	<ul id="nav">
+		<li> <a href="Contact.html" class="color-me">Contact</a>&emsp;&emsp;
+			 <a href="Index.html" class="color-me">Home</a>&emsp;&emsp;
+			 <a href="Blog.html" class="color-me">Blog</a>&emsp;&emsp;
+			 <a href="portfolio.html" class="color-me">Portfolio</a>&emsp;&emsp;
+			 <a href="cv.html" class="color-me">CV</a></li>
+		<p1>Hi I'm Ethan, a designer 
+		<br>
+		in the works.</p1>
+		<br>
+</ul>
+</div>
+<main class="main-content2" style="padding-bottom:400px">
+	<div class="page">	
+	  <div class="wrap">
+		<div class="container3" style="margin-bottom:120px;margin-top:0px;">
+
+<center>
+<p17>You are required to log in before viewing my CV. Please contact me via email for the password.<br>
+										</p17>
+<br>
+<br>
+
+	<form name="loginForm" method="post">
+		<p16 style="color:#fffffc; font-size:16px; font-style: Karla,Helvitica,sans-serif">password:</p16>
+			<input name="inputPass" type="password" id="password" disabled>
+			<input type="button" name="submit" value="Log In" onClick="passValid();" disabled>
+	</form>
+<script type="text/javascript">
+	function passValid(){
+		if (loginForm.inputPass.value=="EthansLogin"){
+			alert("Correct Password!");
+			window.location.assign("actualcv.html");
+			}
+		else{
+			alert('Wrong Password')}
+	}
+</script>
+
+
+<br>
+<br>
+</div>
+</div>
+</div>
+</div>
+</center>
+</main>
+<div class="site-footer2">
+	<div class="container2">
+<p4>Website was built using a variety of HTML and CSS code. &copy; Gifs are NOT owned by me and are original concepts copyrighted by Rin Kokuyo and Signal.MD.<br>
+    &copy; Ethan 2019</p4>
+</div>
+</div>
+</body>
+</html>
